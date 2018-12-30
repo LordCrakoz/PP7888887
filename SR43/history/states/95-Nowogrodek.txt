@@ -1,0 +1,29 @@
+
+state={
+	id=95
+	name="STATE_95"
+
+	history={
+		owner = BLR
+		owner = BLR
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 1
+			347 = {
+				bunker = 7
+
+			}
+
+		}
+		add_core_of = BLR
+
+	}
+
+	provinces={
+		318 347 3281 3309 6280 6306 6359 9236 9304 9359 11341 
+	}
+	manpower=2157200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

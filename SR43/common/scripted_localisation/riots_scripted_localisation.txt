@@ -1,0 +1,220 @@
+###ICONS###
+defined_text = { 
+			name = get_idea_anarchy_riots
+			#german 
+			text = {
+				trigger = {
+					 has_country_flag = anarchy_movements 
+				}
+				localization_key = "GFX_anarchy"
+		   }	
+			#nothing 
+			text = {
+				trigger = {
+				  NOT = { has_country_flag = anarchy_movements }
+				}
+				localization_key = "GFX_idea_slot_nothing"
+			}
+}
+#defined_text = { 
+#   name = get_idea_map_manager
+#    text = {
+#        trigger = {
+#            tag = GER
+#        }
+#        localization_key = "GFX_riots_map_ger_bg"
+#    }
+#}
+##MAP##
+defined_text = { 
+			name = get_situation_text
+			#german 	
+		   text = {
+				trigger = {
+					 has_stability > 0.7 
+				}
+				localization_key = "GOOD_SITUATION"
+		   }
+		   text = {
+				trigger = {
+					 has_stability > 0.5
+				}
+				localization_key = "AVERAGE_SITUATION"
+		   }
+		   text = {
+				trigger = {
+					 has_stability < 0.3
+				}
+				localization_key = "BAD_SITUATION"
+		   }
+		   text = {
+				trigger = {
+					 has_stability < 0.15
+				}
+				localization_key = "DISASTER_SITUATION"
+		   }
+}
+defined_text = { 
+			name = get_riot_situation_text
+			#german 	
+		   text = {
+				trigger = {
+					 has_stability > 0.5
+				}
+				localization_key = "CONTROLED_RIOTS"
+		   }
+}
+###HIDE/NOT HIDE THE POPULARITY###
+defined_text = { #POPULARITY
+    name = the_popularity_I
+	#hide
+    text = {
+        trigger = {
+			NOT = { has_country_flag = anarchy_movements }
+        }
+        localization_key = "hide_for_everyone_I"
+    }
+	#not hide
+	text = {
+        trigger = {
+			has_country_flag = anarchy_movements 
+        }
+        localization_key = "anarchy_movements_I"
+    }
+}	
+defined_text = { #TEXT
+    name = the_riots_text_pop_I
+	#hide
+    text = {
+        trigger = {
+			NOT = { has_country_flag = anarchy_movements }
+        }
+        localization_key = "hide_text_pop_I"
+    }
+	#not hide
+	text = {
+        trigger = {
+			has_country_flag = anarchy_movements 
+        }
+        localization_key = "anarchy_text_pop_I"
+    }
+}	
+defined_text = {
+    name = the_popularity_II
+	#hide
+	text = {
+        trigger = {
+			NOT = { has_country_flag = anarchy_movements }
+        }
+        localization_key = "hide_for_everyone_II"
+    }
+	#not hide
+	text = {
+        trigger = {
+			has_country_flag = anarchy_movements 
+        }
+        localization_key = "anarchy_movements_II"
+    }
+}
+defined_text = {
+    name = the_popularity_III
+	#hide
+	text = {
+        trigger = {
+			NOT = { has_country_flag = anarchy_movements }
+        }
+        localization_key = "hide_for_everyone_III"
+    }
+	#not hide
+	text = {
+        trigger = {
+			has_country_flag = anarchy_movements 
+        }
+        localization_key = "anarchy_movements_III"
+    }
+}
+defined_text = {
+    name = the_popularity_IV
+	#hide
+	text = {
+        trigger = {
+			NOT = { has_country_flag = anarchy_movements }
+        }
+        localization_key = "hide_for_everyone_IV"
+    }
+	#not hide
+	text = {
+        trigger = {
+			has_country_flag = anarchy_movements 
+        }
+        localization_key = "anarchy_movements_IV"
+    }
+}
+defined_text = {
+    name = the_popularity_V
+	#hide
+	text = {
+        trigger = {
+			NOT = { has_country_flag = anarchy_movements }
+        }
+        localization_key = "hide_for_everyone_V"
+    }
+	#not hide
+	text = {
+        trigger = {
+			has_country_flag = anarchy_movements 
+        }
+        localization_key = "anarchy_movements_V"
+    }
+}
+defined_text = {
+    name = the_popularity_VI
+	#hide
+	text = {
+        trigger = {
+			NOT = { has_country_flag = anarchy_movements }
+        }
+        localization_key = "hide_for_everyone_VI"
+    }
+	#not hide
+	text = {
+        trigger = {
+			has_country_flag = anarchy_movements 
+        }
+        localization_key = "anarchy_movements_VI"
+    }
+}
+defined_text = {
+    name = the_popularity_VII
+	#hide
+	text = {
+        trigger = {
+			NOT = { has_country_flag = anarchy_movements }
+        }
+        localization_key = "hide_for_everyone_VII"
+    }
+	#not hide
+	text = {
+        trigger = {
+			has_country_flag = anarchy_movements 
+        }
+        localization_key = "anarchy_movements_VII"
+    }
+}
+defined_text = {
+    name = the_popularity_VIII
+	#hide
+	text = {
+        trigger = {
+			NOT = { has_country_flag = anarchy_movements }
+        }
+        localization_key = "hide_for_everyone_VIII"
+    }
+	#not hide
+	text = {
+        trigger = {
+			has_country_flag = anarchy_movements 
+        }
+        localization_key = "anarchy_movements_VIII"
+    }
+}

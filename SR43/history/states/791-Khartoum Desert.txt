@@ -1,0 +1,22 @@
+state={
+	id=791
+	name="STATE_791"
+
+	history={
+		owner = SRD
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+
+		}
+		add_core_of = SRD
+
+	}
+
+	provinces={
+		7987 8103 10900 
+	}
+	manpower=120000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,486 @@
+﻿division_template = {
+	name = "USSA Infantry"	
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "USSA Panzer"	# Armored Division
+	
+
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		modern_armor = { x = 2 y = 0 }
+	    modern_armor = { x = 2 y = 1 }
+	    modern_armor = { x = 2 y = 2 }
+	    motorized = { x = 3 y = 0 }
+		
+		
+	} 
+	
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "USSA Model 3452"	# Armored Division
+	
+	regiments = {
+		super_heavy_armor = { x = 0 y = 0 }
+		super_heavy_armor = { x = 0 y = 1 }
+		super_heavy_armor = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		modern_armor = { x = 2 y = 0 }
+	    modern_armor = { x = 2 y = 1 }
+	    teleguider_tank = { x = 2 y = 2 }
+		
+	} 
+	
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+		maintenance_company { x = 0 y = 3 }
+    }
+}
+
+division_template = {
+	name = "USSA Mountain Guard"	
+
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 0 y = 3 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+
+division_template = {
+	name = "USSA Naval Division 241"	
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 0 y = 3 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+		marine = { x = 2 y = 0 }
+		marine = { x = 2 y = 1 }
+		marine = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "USSA Paratrooper Division SDC-6"	
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+		paratrooper = { x = 1 y = 2 }
+		paratrooper = { x = 2 y = 0 }
+		paratrooper = { x = 2 y = 1 }
+		paratrooper = { x = 2 y = 2 }
+	}
+	support = { 
+		engineer = { x = 0 y = 0 }
+	    recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "USSA Model 5125-C1"	
+
+
+	regiments = {
+		teleguider_tank = { x = 0 y = 0 }
+		teleguider_tank = { x = 0 y = 1 }
+		teleguider_tank = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		teleguider_tank = { x = 1 y = 0 }
+		teleguider_tank = { x = 1 y = 1 }
+		teleguider_tank = { x = 1 y = 2 }
+		teleguider_tank = { x = 2 y = 0 }
+		teleguider_tank = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+		maintenance_company { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "USSA S.H Model"	
+
+
+	regiments = {
+		super_heavy_armor = { x = 0 y = 0 }
+		super_heavy_armor = { x = 0 y = 1 }
+		super_heavy_armor = { x = 0 y = 2 }
+		super_heavy_armor = { x = 1 y = 0 }
+		super_heavy_armor = { x = 1 y = 1 }
+		super_heavy_armor = { x = 1 y = 2 }
+		super_heavy_armor = { x = 2 y = 0 }
+		super_heavy_armor = { x = 2 y = 1 }
+		super_heavy_armor = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+		maintenance_company { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "USSA Rocket Model DASF - 53"	
+
+
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }
+		artillery_brigade = { x = 0 y = 1 }
+		motorized_rocket_brigade = { x = 1 y = 0 }
+		motorized_rocket_brigade = { x = 1 y = 1 }
+		motorized_rocket_brigade = { x = 2 y = 0 }
+		motorized_rocket_brigade = { x = 2 y = 1 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+		maintenance_company { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "USSA Motorized Division" # Motorized Division
+	
+
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		
+		
+		
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+# Units Pact
+units = {
+	division= {	# "USSA Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13213
+		division_template = "USSA Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "USSA Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13213
+		division_template = "USSA Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	# "Saharian Paratrooper Division SRC-2"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13213
+		division_template = "USSA Paratrooper Division SDC-6" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "USSA Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13213
+		division_template = "USSA Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "USSA Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10725
+		division_template = "USSA Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "USSA Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10725
+		division_template = "USSA Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "USSA Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10725
+		division_template = "USSA Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "1. USSA Rocket Model DASF - 53"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10725
+		division_template = "USSA Rocket Model DASF - 53" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "2. USSA Rocket Model DASF - 53"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 7041
+		division_template = "USSA Rocket Model DASF - 53" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "USSA Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 7041
+		division_template = "USSA Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "USSA Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 7041
+		division_template = "USSA Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "USSA Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13221
+		division_template = "USSA Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "USSA Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13221
+		division_template = "USSA Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "USSA Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13221
+		division_template = "USSA Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "USSA Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13224
+		division_template = "USSA Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "USSA Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13224
+		division_template = "USSA Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "USSA Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13224
+		division_template = "USSA Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "USSA Motorized Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13224
+		division_template = "USSA Motorized Division" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "USSA Motorized Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1897
+		division_template = "USSA Motorized Division" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "USSA Motorized Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1897
+		division_template = "USSA Motorized Division" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "USSA Motorized Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1897
+		division_template = "USSA Motorized Division" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "USSA Motorized Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1897
+		division_template = "USSA Motorized Division" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "Saharian Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10771
+		division_template = "USSA Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.04
+		start_equipment_factor = 1
+	}
+	division= {	# "Saharian Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10771
+		division_template = "USSA Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.04
+		start_equipment_factor = 1
+	}
+	division= {	# "Saharian Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10771
+		division_template = "USSA Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.04
+		start_equipment_factor = 1
+	}
+}

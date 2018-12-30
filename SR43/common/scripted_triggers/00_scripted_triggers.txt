@@ -1,0 +1,55 @@
+### Civil Wars
+
+chinese_civil_war = {
+	OR = {
+		PRC = {
+			has_war_with = MAN
+			has_war_with = SHX
+			has_war_with = REG
+		}
+		MAN = {
+			OR = {
+				has_war_with = PRC
+				has_war_with = SHX
+				has_war_with = REG
+			}
+		}
+		SHX = {
+			OR = {
+				has_war_with = PRC
+				has_war_with = MAN
+				has_war_with = REG
+			}
+		}
+	}
+}
+
+### Parties popularity
+
+nationalistic_government = {
+	OR = {
+		has_government = fascism
+        has_government = brotherhood
+		has_government = nationalism
+		has_government = islamism
+		has_government = neutrality
+	}
+}
+
+neo_socialist_government = {
+       has_government = communism
+}
+
+democratic_government = {
+	OR = {
+		has_government = conservatism
+		has_government = social_democrats
+		has_government = liberalism
+	}
+}
+
+confederatic_government = {
+	OR = {
+		has_government = democratic
+	}
+}

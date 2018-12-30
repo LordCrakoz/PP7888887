@@ -1,0 +1,19 @@
+state={
+	id=1222
+	name="STATE_1222"
+	provinces={
+		1201 
+	}
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 5
+		}
+		
+		add_core_of = SAU
+	}
+	
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category = siberia
+}

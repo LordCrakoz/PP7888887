@@ -1,0 +1,25 @@
+state={
+	id=1100
+	name="STATE_1100"
+	
+	impassable = yes
+
+	history={
+        victory_points = {
+			13442 30 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		13436 13442 13448 13451 13453 
+	}
+	manpower=750
+	buildings_max_level_factor=1.000
+	state_category=mars_region
+}

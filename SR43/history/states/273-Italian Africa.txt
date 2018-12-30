@@ -1,0 +1,25 @@
+
+state={
+	id=273
+	name="STATE_273" 
+	manpower = 350000
+	
+	state_category = wasteland
+	impassable = no
+	resources={
+		steel=25
+	}
+
+	history={
+		owner = LBA
+		 buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = LBA
+	}
+
+	provinces={
+		1057 1060 1140 7985 10104 10754 10785 11951 
+	}
+}

@@ -1,0 +1,11 @@
+focus_tree = {
+	id = romania
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NONE
+		}
+	}
+	default = no
+}

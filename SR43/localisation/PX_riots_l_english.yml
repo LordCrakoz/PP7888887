@@ -1,0 +1,50 @@
+﻿l_english:
+ #TOOLTIP
+ RIOTS_TOOLTIP:0 "§RSeparatic Movements§!"
+ RIOTS_PEACE_TOOLTIP:0 "Here you will see all popularity of the 'peaceful' movements."
+ RIOTS_PEACEFUL_MOVE_TOOPTIP:0 "§gPeaciful movements§!:\nKnown as §R'The Government Slip'§! they are basscialy not so aggressive and you can calm them down quickly.\n§RProblem: they interfere and they are many, especially in 'democratic' countries.§!"
+ RIOTS_MAP_TOOLTIP:0 "§YMap of the [Root.GetName]§!"
+ #ELSE
+ PEACIFUL_MOVE:0 "§GPeaceful Movements§!"
+ RADICAL_MOVE:0 "§RRadical Movements§!"
+ POPULARITY_MOVE:0 "§YLogo§!"
+ POPULARITY_RAD_MOVE:0 "Logo"
+ #VARIABLES
+ VARIABLE_INTRO:0 "Stats of the\n §H[Root.GetName]§!:"
+ VARIABLE_RIOT_POLPOW:0 "£pol_power  = [?political_power]"
+ VARIABLE_RIOT_STAB:0 "£stability_texticon  = [?has_stability|%0]"
+ VARIABLE_RIOT_NUMSTATE:0 "Number of States = §Y[?num_controlled_states]§!"
+ VARIABLE_RIOT_NUMCORSTATE:0 "Number of Core States = §Y[?num_core_states]§!"
+ VARIABLE_RIOT_NUMOCCUSTATE:0 "Number of §ROccupied§! States = [?num_occupied_states]"
+ #MECHANIC
+ BAVARIAN_RIOTS:0 "The government threat."
+ ANARCHY_RIOTS:0 "Anarchy Movement"
+ #MAP
+ MAP_SITUATION:0 "Country Situation: [get_situation_text]"
+ RIOTS_SITUATION:0 "Rebelion Situation: [get_riot_situation_text]"
+ CONTROLED_RIOTS:0 "§GControlled§!"
+ AVERAGE_SITUATION:0 "Average"
+ GOOD_SITUATION:0 "§GGood§!"
+ BAD_SITUATION:0 "§RBad§!"
+ DISASTER_SITUATION:0 "§bDisaster§!"
+ #HIDE
+ hide_for_everyone_I:0 ""
+ hide_text_pop_I:0 ""
+ hide_for_everyone_II:0 ""
+ hide_for_everyone_III:0 ""
+ hide_for_everyone_IV:0 ""
+ hide_for_everyone_V:0 ""
+ hide_for_everyone_VI:0 ""
+ hide_for_everyone_VII:0 ""
+ hide_for_everyone_VIII:0 ""
+ anarchy_movements_I:0 "£generic_riot_icon  - |    [?procent_movements_I|2]%"
+ anarchy_text_pop_I:0 "§M[Root.GetAdjectiveCap] Revolutionaries§!"
+ anarchy_movements_II:0 "£generic_riot_icon  - |    [?procent_movements_II|2]%"
+ anarchy_movements_III:0 "£generic_riot_icon  - |    [?procent_movements_III|2]%"
+ anarchy_movements_IV:0 "£generic_riot_icon  - |    [?procent_movements_IV|2]%"
+ anarchy_movements_V:0 "£generic_riot_icon  - |    [?procent_movements_V|2]%"
+ anarchy_movements_VI:0 "£generic_riot_icon  - |    [?procent_movements_VI|2]%"
+ anarchy_movements_VII:0 "£generic_riot_icon  - |    [?procent_movements_VII|2]%"
+ anarchy_movements_VIII:0 "£generic_riot_icon  - |    [?procent_movements_VIII|2]%"
+ 
+ 

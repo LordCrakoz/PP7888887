@@ -1,0 +1,24 @@
+state={
+	id=1212
+	name="STATE_1212"
+	resources={
+		aluminium=4.000
+	}
+
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 10
+
+		}
+		add_core_of = POL
+
+	}
+
+	provinces={
+		552 3438 3572 6534 6595 9470 11517 
+	}
+	manpower=142300
+	buildings_max_level_factor=1.000
+	state_category=city
+}

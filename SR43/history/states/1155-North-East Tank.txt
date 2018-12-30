@@ -1,0 +1,19 @@
+state={
+	id=1155
+	name="STATE_1155"
+
+	history={
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		13438 13452 
+	}
+	manpower=200
+	buildings_max_level_factor=1.000
+	state_category=little_town
+}

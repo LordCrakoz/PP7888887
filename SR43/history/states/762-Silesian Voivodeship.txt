@@ -1,0 +1,23 @@
+
+state={
+	id=762
+	name="STATE_762"
+
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+		add_core_of = POL
+
+	}
+
+	provinces={
+		402 524 12562 
+	}
+	manpower=1800000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

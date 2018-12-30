@@ -1,0 +1,42 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_riots_stats_bg"
+		texturefile = "gfx/interface/riots_stats_bg.dds"
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_idea_map_of_riots"
+		texturefile = "gfx/interface/idea_map_of_riots.dds"
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_riots_map_bg"
+		texturefile = "gfx/interface/riots_map_bg.dds"
+	}
+}
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_riots_map_ger_bg"
+		texturefile = "gfx/interface/riots_map_ger_bg.dds"
+	}
+}
+#RIOTS LOGO
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_anarchy"
+		texturefile = "gfx/interface/riots/anarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_generic_riot_icon"
+		texturefile = "gfx/interface/riots/generic_riot_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_riot_manager_button"
+		texturefile = "gfx/interface/topbar/toolbar/riot_manager_button.dds"
+	}
+}

@@ -1,0 +1,18 @@
+state={
+	id=1038
+	name="STATE_1038"
+	
+	impassable = yes
+	
+	history={
+		owner = ASS
+
+	}
+
+	provinces={
+		13298 13299 13302 13303 13649 13932 13933 13934 
+	}
+	manpower=3000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

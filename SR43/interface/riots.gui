@@ -1,0 +1,368 @@
+guiTypes = {
+    ###On the main screen###
+			containerWindowType = {
+				name = "riots_container"
+				position = { x = 269 y = -19 }
+				
+				buttonType ={
+					name ="riots_open_button"
+					spriteType = "GFX_riot_manager_button"
+					position = { x = 270 y = 56 }
+					buttonFont = "cg_16b"
+					Orientation = "UPPER_LEFT"
+					clicksound = click_default
+					oversound = ui_menu_over
+					shortcut = "z"
+					
+					pdx_tooltip = "RIOTS_TOOLTIP"
+				}
+				
+			}
+            ###In riots window###
+			containerWindowType = {
+				name = "riots_main_window_container"
+				position = {x=550 y=250}
+				size = { width=669 height=600 }
+
+				fade_time = 300
+				fade_type = linear
+				moveable = yes
+				
+				background = {
+					name = "Background"
+					spriteType = "GFX_riots_stats_bg"
+				}
+				
+				instantTextboxType = {
+					name = "riots_main_window_title"
+					position = { x = 145 y = 25 }
+					font = "hoi_22tech"
+					borderSize = {x = 0 y = 0}
+					text = "Management of The Separatist Movements"
+					maxWidth = 400
+					maxHeight = 20
+					format = Center	
+				}
+				
+				#Popularity/Movements
+				instantTextboxType = {
+					name = "riots_pea_popularity"
+					position = { x = 248 y = 166 }
+					font = "cg_16b"
+					borderSize = {x = 0 y = 0}
+					text = "POPULARITY_MOVE"
+					maxWidth = 100
+					maxHeight = 21
+					format = Center
+					
+					pdx_tooltip = "RIOTS_PEACE_TOOLTIP"
+				}
+				
+				instantTextboxType = {
+					name = "riots_rad_popularity"
+					position = { x = 340 y = 166 }
+					font = "cg_16b"
+					borderSize = {x = 0 y = 0}
+					text = "POPULARITY_RAD_MOVE"
+					maxWidth = 100
+					maxHeight = 21
+					format = Center
+					
+				}
+								
+				instantTextboxType = {
+					name = "riots_radical"
+					position = { x = 482 y = 167 }
+					font = "cg_16b"
+					borderSize = {x = 0 y = 0}
+					text = "RADICAL_MOVE"
+					maxWidth = 133
+					maxHeight = 21
+					format = Center	
+				}
+				instantTextboxType = {
+					name = "riots_peace"
+					position = { x = 75 y = 167 }
+					textureFile = ""
+					font = "cg_16b"
+					borderSize = {x = 0 y = 0}
+					text = "PEACIFUL_MOVE"
+					maxWidth = 133
+					maxHeight = 21
+					format = Center	
+					
+					pdx_tooltip = "RIOTS_PEACEFUL_MOVE_TOOPTIP"
+				}
+				##Effects##
+				buttonType = {
+					name = "riots_main_close"
+					quadTextureSprite = "GFX_closebutton_small"
+					position = { x= 610 y = 20 }
+					clicksound = click_close
+					pdx_tooltip = "PRO"
+				}
+				#Map
+				buttonType = {
+					name = "riots_open_map_button"
+					quadTextureSprite = "GFX_idea_map_of_riots"
+					position = { x= 320 y = 545 }
+					clicksound = click_close
+					pdx_tooltip = "RIOTS_MAP_TOOLTIP"
+				}
+				###POPULARITY###
+				instantTextBoxType = {
+					name = "riots_progress_I"
+					position = { x= 517 y = 210 }
+					font = "garamond_14"
+					text = "[the_popularity_I]"
+					format = center
+					maxWidth = 100
+					maxHeight = 21
+					fixedsize = yes
+					
+					pdx_tooltip = "RIOTS_TOOLTIP"
+					pdx_tooltip_delayed = "RIOTS_TOOLTIP"
+		        } 
+				instantTextBoxType = {
+					name = "riots_text_I"
+					position = { x= 487 y = 227 }
+					font = "cg_16b"
+					text = "[the_riots_text_pop_I]"
+					format = center
+					maxWidth = 160
+					maxHeight = 21
+					fixedsize = yes
+					
+					pdx_tooltip = "RIOTS_TOOLTIP"
+		        } 
+				instantTextBoxType = {
+					name = "riots_progress_II"
+					position = { x= 517 y = 250 }
+					font = "garamond_14"
+					text = "[the_popularity_II]"
+					format = center
+					maxWidth = 100
+					maxHeight = 21
+					fixedsize = yes
+					
+					pdx_tooltip = "RIOTS_TOOLTIP"
+					pdx_tooltip_delayed = "RIOTS_TOOLTIP"
+		        } 
+				instantTextBoxType = {
+					name = "riots_progress_III"
+					position = { x= 517 y = 289 }
+					font = "garamond_14"
+					text = "[the_popularity_III]"
+					format = center
+					maxWidth = 100
+					maxHeight = 21
+					fixedsize = yes
+					
+					pdx_tooltip = "RIOTS_TOOLTIP"
+					pdx_tooltip_delayed = "RIOTS_TOOLTIP"
+		        } 
+				instantTextBoxType = {
+					name = "riots_progress_IV"
+					position = { x= 517 y = 329 }
+					font = "garamond_14"
+					text = "[the_popularity_IV]"
+					format = center
+					maxWidth = 100
+					maxHeight = 21
+					fixedsize = yes
+					
+					pdx_tooltip = "RIOTS_TOOLTIP"
+					pdx_tooltip_delayed = "RIOTS_TOOLTIP"
+		        } 
+				instantTextBoxType = {
+					name = "riots_progress_V"
+					position = { x= 517 y = 369 }
+					font = "garamond_14"
+					text = "[the_popularity_V]"
+					format = center
+					maxWidth = 100
+					maxHeight = 21
+					fixedsize = yes
+					
+					pdx_tooltip = "RIOTS_TOOLTIP"
+					pdx_tooltip_delayed = "RIOTS_TOOLTIP"
+		        } 
+				instantTextBoxType = {
+					name = "riots_progress_VI"
+					position = { x= 517 y = 409 }
+					font = "garamond_14"
+					text = "[the_popularity_VI]"
+					format = center
+					maxWidth = 100
+					maxHeight = 21
+					fixedsize = yes
+					
+					pdx_tooltip = "RIOTS_TOOLTIP"
+					pdx_tooltip_delayed = "RIOTS_TOOLTIP"
+		        } 
+				instantTextBoxType = {
+					name = "riots_progress_VII"
+					position = { x= 517 y = 449 }
+					font = "garamond_14"
+					text = "[the_popularity_VII]"
+					format = center
+					maxWidth = 100
+					maxHeight = 21
+					fixedsize = yes
+					
+					pdx_tooltip = "RIOTS_TOOLTIP"
+					pdx_tooltip_delayed = "RIOTS_TOOLTIP"
+		        } 
+				instantTextBoxType = {
+					name = "riots_progress_VIII"
+					position = { x= 517 y = 489 }
+					font = "garamond_14"
+					text = "[the_popularity_VIII]"
+					format = center
+					maxWidth = 100
+					maxHeight = 21
+					fixedsize = yes
+					
+					pdx_tooltip = "RIOTS_TOOLTIP"
+					pdx_tooltip_delayed = "RIOTS_TOOLTIP"
+		        } 
+				#ICONS
+				iconType = {
+					name = "anarchy_riots"
+                    quadTextureSprite = ""
+					position = { x= 359 y = 192 }
+		        } 
+				iconType = {
+					name = "anarchy_generic_icon1"
+                    quadTextureSprite = "GFX_generic_riot_icon"
+					position = { x= 222222 y = 192 }
+		        }
+				#Variables##
+				instantTextboxType = {
+					name = "riots_intro"
+					position = { x = 25 y = 93 }
+					textureFile = ""
+					font = "cg_16b"
+					borderSize = {x = 0 y = 0}
+					text = "VARIABLE_INTRO"
+					maxWidth = 200
+					maxHeight = 30
+					format = Center	
+				}
+				instantTextboxType = {
+					name = "riots_polpow"
+					position = { x = 223 y = 122 }
+					textureFile = ""
+					font = "cg_16b"
+					borderSize = {x = 0 y = 0}
+					text = "VARIABLE_RIOT_POLPOW"
+					maxWidth = 100
+					maxHeight = 22
+					format = Center	
+				}
+				instantTextboxType = {
+					name = "riots_stab"
+					position = { x = 228 y = 90 }
+					textureFile = ""
+					font = "cg_16b"
+					borderSize = {x = 0 y = 0}
+					text = "VARIABLE_RIOT_STAB"
+					maxWidth = 80
+					maxHeight = 20
+					format = Center	
+				}
+				#States
+				instantTextboxType = {
+					name = "riots_numstate"
+					position = { x = 310 y = 83 }
+					textureFile = ""
+					font = "cg_16b"
+					borderSize = {x = 0 y = 0}
+					text = "VARIABLE_RIOT_NUMSTATE"
+					maxWidth = 160
+					maxHeight = 22
+					format = Center	
+				}
+				instantTextboxType = {
+					name = "riots_numcorstate"
+					position = { x = 468 y = 83 }
+					textureFile = ""
+					font = "cg_16b"
+					borderSize = {x = 0 y = 0}
+					text = "VARIABLE_RIOT_NUMCORSTATE"
+					maxWidth = 185
+					maxHeight = 22
+					format = Center	
+				}
+				instantTextboxType = {
+					name = "riots_numoccustate"
+					position = { x = 360 y = 121 }
+					textureFile = ""
+					font = "cg_16b"
+					borderSize = {x = 0 y = 0}
+					text = "VARIABLE_RIOT_NUMOCCUSTATE"
+					maxWidth = 210
+					maxHeight = 22
+					format = Center	
+				}
+				
+		   }
+		   ##MAP##
+		   containerWindowType = {
+				name = "riots_map_window_container"
+				position = { x = 390 y = 200 }
+				size = { width=1067 height=670 }
+				
+			    fade_time = 300
+				fade_type = linear
+				moveable = yes
+				
+				background = {
+					name = "Background"
+					spriteType = "GFX_riots_map_ger_bg"
+				}
+				buttonType = {
+					name ="riots_map_close"
+                    spriteType = "GFX_closebutton_small"
+					position = { x= 1025 y = 10 }
+		        } 
+				#buttonType = {
+				#	name = "map_manager"
+                #    spriteType = ""
+				#	position = { x= 525 y = 200 }
+		        #}
+				instantTextboxType = {
+					name = "map_situation_text"
+					position = { x = 25 y = 25 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 0}
+					text = "MAP_SITUATION"
+					maxWidth = 300
+					maxHeight = 10
+					format = Center	
+				}
+				instantTextboxType = {
+					name = "riots_situation_text"
+					position = { x = 520 y = 25 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 0}
+					text = "RIOTS_SITUATION"
+					maxWidth = 497
+					maxHeight = 10
+					format = Center	
+				}
+				instantTextboxType = {
+					name = "riots_country_text"
+					position = { x = 230 y = 300 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 0}
+					text = "|[Root.GetName]|"
+					maxWidth = 497
+					maxHeight = 10
+					format = Center	
+				}
+		  }
+}

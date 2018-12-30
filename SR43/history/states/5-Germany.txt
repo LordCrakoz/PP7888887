@@ -1,0 +1,41 @@
+
+state={
+	id=5
+	name="STATE_5"
+
+	history={
+		owner = POL
+		controller = POL
+		add_core_of = POL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			anti_air_building = 2
+			air_base = 5
+			6402 = {
+				bunker = 7
+			}
+			11245 = {
+				bunker = 7
+			}
+			9398 = {
+				bunker = 7
+			}
+			266 = {
+				bunker = 7
+			}
+			9327 = {
+				bunker = 7
+			}
+
+		}
+
+	}
+
+	provinces={
+		266 3351 3380 6375 6402 9327 9346 9372 9398 11245 11386 
+	}
+	manpower=6378108
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

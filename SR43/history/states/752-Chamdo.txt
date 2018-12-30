@@ -1,0 +1,26 @@
+
+state={
+	id=752
+	name="STATE_752"
+	resources={
+		oil=25.000
+	}
+
+	history={
+		owner = PRC
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		1918 4407 5102 7988 8041 8059 8104 10856 12724 12837 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

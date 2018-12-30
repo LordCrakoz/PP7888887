@@ -1,0 +1,309 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Division d'Infanterie"		
+	division_names_group = FRA_INF_01
+	# Represents: Division d'Infanterie (Series A and B), Div. d'Inf. de Forteresse
+	# Difference is their equipment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Division d'Infanterie Motorisée"	# Division d'Infanterie Motorisée
+	division_names_group = FRA_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Division Légère Mécanique" 		# Division Légère Mécanique
+	division_names_group = FRA_MEC_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		modern_armor = { x = 2 y = 0 }
+	    modern_armor = { x = 2 y = 1 }
+	    modern_armor = { x = 2 y = 2 }
+	    motorized = { x = 3 y = 0 }
+		
+		
+	} 
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Paris Model De Lafru-1424"	# Armored Division
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		super_heavy_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		modern_armor = { x = 2 y = 0 }
+	    modern_armor = { x = 2 y = 1 }
+	    teleguider_tank = { x = 2 y = 2 }
+		
+	} 
+	
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+		maintenance_company { x = 0 y = 3 }
+    }
+}
+
+division_template = {
+	name = "France Mountain Guard"	
+
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 0 y = 3 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+
+division_template = {
+	name = "France Naval Division"	
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 0 y = 3 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+		marine = { x = 2 y = 0 }
+		marine = { x = 2 y = 1 }
+		marine = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "France Paratrooper Division"	
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+		paratrooper = { x = 1 y = 2 }
+		paratrooper = { x = 2 y = 0 }
+		paratrooper = { x = 2 y = 1 }
+		paratrooper = { x = 2 y = 2 }
+	}
+	support = { 
+		engineer = { x = 0 y = 0 }
+	    recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "France Model Leopard"	
+
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		teleguider_tank = { x = 1 y = 0 }
+		teleguider_tank = { x = 1 y = 1 }
+		teleguider_tank = { x = 1 y = 2 }
+		teleguider_tank = { x = 2 y = 0 }
+		teleguider_tank = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+		maintenance_company { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Francik S.H Model"	
+
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		super_heavy_armor = { x = 1 y = 1 }
+		super_heavy_armor = { x = 1 y = 2 }
+		super_heavy_armor = { x = 2 y = 0 }
+		super_heavy_armor = { x = 2 y = 1 }
+		super_heavy_armor = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+		maintenance_company { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "France Rocket Model Le Kere-134"	
+
+
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }
+		artillery_brigade = { x = 0 y = 1 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+		maintenance_company { x = 0 y = 3 }
+	}
+}
+##### OOB #####
+units = {
+	##### Northern France Region #####
+	# VIe Corps d'Armée (Région Militaire in 1936) -- Metz
+	division= {	# "2ème France Rocket Model Le Kere-134"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 692
+		division_template = "France Rocket Model Le Kere-134" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "2 France Model Leopard"
+		location = 692
+		division_template = "France Model Leopard" 		# FT-17s
+		start_experience_factor = 0.2
+	}
+
+	# Ie Corps d'Armée (Région Militaire in 1936) -- Lille
+	division= {	# "1ère Div. d'Infanterie Motorisée"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 692
+		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
+		start_experience_factor = 0.2
+	}
+	division= {	# "7ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 692
+		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+
+	# IIe Corps d'Armée (Région Militaire in 1936) -- Amiens
+	division= {	# "3ème Div. d'Infanterie Motorisée"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 692
+		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
+		start_experience_factor = 0.2
+	}
+
+	# IIIe Corps d'Armée (Région Militaire in 1936) -- Rouen
+	division= {	# "5ème Div. d'Infanterie Motorisée"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 692
+		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
+		start_experience_factor = 0.2
+	}
+
+	# XIIe Corps d'Armée (Région Militaire in 1936) -- Reims
+	division= {	# "12ème Div. d'Infanterie Motorisée"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 692
+		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
+		start_experience_factor = 0.2
+	}
+	division= {	# "1ère Division Légère Mécanique"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 692
+		division_template = "Division Légère Mécanique" 	# DLM is frontline, best equipment, L Arm = H-35
+		start_experience_factor = 0.2
+	}								
+}

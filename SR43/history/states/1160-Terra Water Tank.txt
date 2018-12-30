@@ -1,0 +1,21 @@
+state={
+	id=1160
+	name="STATE_1160"
+	
+	impassable = yes
+
+	history={
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+
+	provinces={
+		13306 13310 13312 13313 13314 13568 
+	}
+	manpower=200
+	buildings_max_level_factor=1.000
+	state_category=little_town
+}

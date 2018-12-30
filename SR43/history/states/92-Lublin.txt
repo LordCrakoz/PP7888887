@@ -1,0 +1,36 @@
+
+state={
+	id=92
+	name="STATE_92"
+
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			air_base = 2
+			9452 = {
+				bunker = 7
+
+			}
+			11466 = {
+				bunker = 7
+
+			}
+			9544 = {
+				bunker = 7
+
+			}
+
+		}
+		add_core_of = POL
+
+	}
+
+	provinces={
+		3521 3559 6484 9452 9521 9544 11399 11466 
+	}
+	manpower=4464600
+	buildings_max_level_factor=1.000
+	state_category=town
+}

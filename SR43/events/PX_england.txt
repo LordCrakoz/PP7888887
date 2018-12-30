@@ -1,0 +1,790 @@
+﻿add_namespace = england
+
+news_event = {
+		id = england.0
+		title = england.0.t
+		desc = england.0.d
+		picture = GFX_news_eu_conference 
+		
+		fire_only_once = yes
+		
+		trigger = {
+			tag = ENG
+		}
+
+		mean_time_to_happen = {
+		    days = 1
+	    }		
+        option = { 
+		    name = england.0.a
+		    hidden_effect = {
+		    	country_event = { id = england.5 days = 6 }
+		    }
+	    }
+}
+
+news_event = {
+	    id = england.1
+        title = england.1.t
+        desc = england.1.d 
+	    picture = GFX_news_eu_conference 
+		
+		fire_only_once = yes
+		
+		is_triggered_only = yes
+
+		mean_time_to_happen = {
+		    days = 10
+	    }		
+        option = { 
+		    name = england.1.a
+		    hidden_effect = {
+		    	country_event = { id = england.3 days = 1 }
+		    	load_focus_tree = uk_democracy
+		    }
+	    }
+}
+
+country_event = {
+	    id = england.2
+        title = england.2.t
+        desc = england.2.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		mean_time_to_happen = {
+		    days = 1
+	    }	
+        option = { 
+		    name = england.2a
+		    hidden_effect = {
+		    	set_country_flag = "The elections have ended"
+		    }
+	    }
+	    option = { 
+		    name = england.2b
+		    set_politics = {
+		    	ruling_party = liberalism
+		    	elections_allowed = yes
+		    }
+		    hidden_effect = {
+		    	set_country_flag = "The elections have ended"
+		    }
+	    }
+	    option = { 
+		    name = england.2c
+		    set_politics = {
+		    	ruling_party = conservatism
+		    	elections_allowed = yes
+		    }
+		    hidden_effect = {
+		    	set_country_flag = "The elections have ended"
+		    }
+	    }
+	    option = { 
+		    name = england.2d
+		    ai_chance = {
+    			factor = 30
+		    }
+		    set_politics = {
+		    	ruling_party = nationalism
+		    	elections_allowed = yes
+		    }
+		    hidden_effect = {
+		    	set_country_flag = "The elections have ended"
+		    }
+	    }
+}
+country_event = {
+	    id = england.3
+        title = england.3.t
+        desc = england.3.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		mean_time_to_happen = {
+		    days = 1
+	    }
+	    immediate = {
+	    	hidden_effect = {
+		    	country_event = { id = england.4 days = 1 }
+		    }
+	    }		
+        option = { 
+		    name = england.3.a
+	    }
+	    option = { 
+		    name = england.3.b
+		    create_country_leader = {
+				name = "Judy McCaugh"
+				desc = ""
+				picture = "Sarah_L.dds"
+				expire = "2100.1.1"
+				ideology = left_democracy
+				traits = {
+				}
+			}
+	    }
+}
+country_event = {
+	    id = england.4
+        title = england.4.t
+        desc = england.4.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		mean_time_to_happen = {
+		    days = 1
+	    }
+	    immediate = {
+	    	hidden_effect = {
+		    	country_event = { id = england.2 days = 1 }
+		    }
+	    }		
+        option = { 
+		    name = england.4.a
+		    create_country_leader = {
+				name = "Tyler Tyson"
+				desc = ""
+				picture = "Maxwell_H.dds"
+				expire = "2100.1.1"
+				ideology = protectionist
+				traits = {
+				}
+			}
+	    }
+	    option = { 
+		    name = england.4.b
+		    create_country_leader = {
+				name = "John Hartman"
+				desc = ""
+				picture = "Hartman.dds"
+				expire = "2100.1.1"
+				ideology = protectionist
+				traits = {
+				}
+			}
+	    }
+}
+country_event = {
+	    id = england.5
+        title = england.5.t
+        desc = england.5.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		mean_time_to_happen = {
+		    days = 10
+	    }		
+        option = { 
+		    name = england.5.a
+		    ai_chance = {
+    			factor = 160
+		    }
+		    hidden_effect = {
+		    	set_country_flag = "Democracy is safe"
+		    }
+	    }
+		option = { 
+		    name = england.5.b
+		    hidden_effect = {
+		    	set_country_flag = "The Brotherhood is plotting"
+		    }
+	    }
+	    option = { 
+		    name = england.5.c
+		    hidden_effect = {
+		    	set_country_flag = "The King is plotting"
+		    }
+	    }
+	    option = { 
+		    name = england.5d
+		    hidden_effect = {
+		    	set_country_flag = "Communists are plotting"
+		    }
+	    }
+}
+news_event = {
+	    id = england.6
+        title = england.6.t
+        desc = england.6.d 
+	    picture = GFX_news_eu_conference 
+		
+		fire_only_once = yes
+		
+		is_triggered_only = yes
+
+		mean_time_to_happen = {
+		    days = 10
+	    }		
+        option = { 
+		    name = england.6.a
+		    set_politics = {
+		    	ruling_party = brotherhood
+		    	elections_allowed = no
+		    }
+		    hidden_effect = {
+		    	load_focus_tree = uk_brotherhood
+		    }
+	    }
+}
+news_event = {
+	    id = england.7
+        title = england.7.t
+        desc = england.7.d 
+	    picture = GFX_news_eu_conference 
+		
+		fire_only_once = yes
+		
+		is_triggered_only = yes
+
+		mean_time_to_happen = {
+		    days = 10
+	    }		
+        option = { 
+		    name = england.7.a
+		    set_politics = {
+		    	ruling_party = communism
+		    	elections_allowed = no
+		    }
+		    hidden_effect = {
+		    	load_focus_tree = uk_communism
+		    }
+	    }
+}
+news_event = {
+	    id = england.8
+        title = england.8.t
+        desc = england.8.d 
+	    picture = GFX_news_eu_conference 
+		
+		fire_only_once = yes
+		
+		is_triggered_only = yes
+
+		mean_time_to_happen = {
+		    days = 10
+	    }		
+        option = { 
+		    name = england.8.a
+		    hidden_effect = {
+		    	load_focus_tree = uk_monarchism
+		    }
+		    set_politics = {
+		    	ruling_party = neutrality
+		    	elections_allowed = no
+		    }
+	    }
+}
+country_event = {
+	    id = england.9
+        title = england.9.t
+        desc = england.9.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		is_triggered_only = yes
+		mean_time_to_happen = {
+		    days = 1
+	    }		
+        option = { 
+		    name = england.9.a
+		    set_country_flag = "accepts unification"
+	    }
+	    option = { 
+		    name = england.9.b
+	    }
+}
+news_event = {
+	    id = england.10
+        title = england.10.t
+        desc = england.10.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		is_triggered_only = yes
+		mean_time_to_happen = {
+		    days = 1
+	    }		
+        option = { 
+		    name = england.10.a
+		    if = {
+		    	limit = {
+		    		WLN = {
+		    			is_ai = no
+		    		}
+		    	}
+		    	WLN = {
+		    		annex_country = {
+    					target = FLA
+    					transfer_troops = yes
+					}
+					annex_country = {
+    					target = HOL
+    					transfer_troops = yes
+					}
+					set_cosmetic_tag = benelux
+		    	}
+		    }
+		    if = {
+		    	limit = {
+		    		HOL = {
+		    			is_ai = no
+		    		}
+		    	}
+		    	HOL = {
+		    		annex_country = {
+    					target = WLN
+    					transfer_troops = yes
+					}
+					annex_country = {
+    					target = FLA
+    					transfer_troops = yes
+					}
+					set_cosmetic_tag = benelux
+		    	}
+		    }
+		    if = {
+		    	limit = {
+		    		FLA = {
+		    			is_ai = no
+		    		}
+		    	}
+		    	FLA = {
+		    		annex_country = {
+    					target = WLN
+    					transfer_troops = yes
+					}
+					annex_country = {
+    					target = HOL
+    					transfer_troops = yes
+					}
+					set_cosmetic_tag = benelux
+		    	}
+		    }
+		    if = {
+		    	limit = {
+		    		FLA = {
+		    			is_ai = yes
+		    		}
+		    		HOL = {
+		    			is_ai = yes
+		    		}
+		    		WLN = {
+		    			is_ai = yes
+		    		}
+		    	}
+		    	HOL = {
+		    		annex_country = {
+    					target = WLN
+    					transfer_troops = yes
+					}
+					annex_country = {
+    					target = FLA
+    					transfer_troops = yes
+					}
+					set_cosmetic_tag = benelux
+		    	}
+		    }
+	    }
+}
+country_event = {
+	    id = england.11
+        title = england.11.t
+        desc = england.9.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		is_triggered_only = yes
+		mean_time_to_happen = {
+		    days = 1
+	    }		
+        option = { 
+		    name = england.9.a
+		    set_country_flag = "accepts unification"
+	    }
+	    option = { 
+		    name = england.9.b
+		    if = {
+		    	limit = { original_tag = SCO } 
+		    	ENG = {
+		    		country_event = { id = england.12 hours = 2 }
+		    	}
+		    }
+		    if = {
+		    	limit = { original_tag = WAL }
+		    	ENG = {
+		    		country_event = { id = england.13 hours = 2 }
+		    	}
+		    }
+	    }
+}
+country_event = {
+	    id = england.12
+        title = england.12.t
+        desc = england.12.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		is_triggered_only = yes
+		mean_time_to_happen = {
+		    days = 1
+	    }		
+        option = { 
+		    name = england.12.a
+		    end_puppet = SCO
+		    SCO = {
+		    	leave_faction = yes
+		    }
+		    declare_war_on = {
+    			target = SCO
+    			type = annex_everything
+			}
+	    }
+	    option = { 
+		    name = england.12.b
+	    }
+}
+country_event = {
+	    id = england.13
+        title = england.12.t
+        desc = england.12.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		is_triggered_only = yes
+		mean_time_to_happen = {
+		    days = 1
+	    }		
+        option = { 
+		    name = england.12.a
+		    end_puppet = WAL
+		    WAL = {
+		    	leave_faction = yes
+		    }
+		    declare_war_on = {
+    			target = WAL
+    			type = annex_everything
+			}
+	    }
+	    option = { 
+		    name = england.12.b
+	    }
+}
+
+news_event = {
+		id = england.14
+		title = england.14.t
+		desc = england.14.d
+		picture = GFX_news_event_generic_brotherhood_war
+
+		is_triggered_only = yes
+		option = {
+			name = england.14.a
+		}
+}
+
+country_event = {
+	    id = england.15
+        title = england.15.t
+        desc = england.15.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		is_triggered_only = yes
+		mean_time_to_happen = {
+		    days = 1
+	    }		
+        option = { 
+		    name = england.15.a
+		    ENG = {
+		    	annex_country = {
+    				target = IRE
+    				transfer_troops = yes
+				}
+			}
+	    }
+	    option = { 
+		    name = england.15.b
+		    ENG = {
+		    	puppet = IRE
+		    }
+	    }
+	    option = { 
+		    name = england.15.c
+		    ENG = {
+		    	create_wargoal = {
+    				type = puppet_wargoal_focus
+    				target = IRE
+				}
+				country_event = { id = england.16 hours = 2 }
+		    }
+	    }
+}
+country_event = {
+	    id = england.16
+        title = england.12.t
+        desc = england.12.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		is_triggered_only = yes
+		mean_time_to_happen = {
+		    days = 1
+	    }		
+        option = { 
+		    name = england.12.a
+		    end_puppet = IRE
+		    IRE = {
+		    	leave_faction = yes
+		    }
+		    declare_war_on = {
+    			target = IRE
+    			type = annex_everything
+			}
+	    }
+	    option = { 
+		    name = england.12.b
+	    }
+}
+country_event = {
+	    id = england.17
+        title = england.17.t
+        desc = england.17.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		is_triggered_only = yes
+		mean_time_to_happen = {
+		    days = 1
+	    }		
+        option = { 
+		    name = england.17.a
+		    diplomatic_relation = {
+    			country = ENG
+    			relation = military_access
+    			active = yes
+			}
+			add_political_power = 100
+		    ENG = {
+		    	set_country_flag = "Joint English Plan"
+		    }
+	    }
+	    option = {
+		    name = england.17.b
+		    ENG = {
+		    	create_wargoal = {
+    				type = puppet_wargoal_focus
+    				target = CAN
+				}
+				country_event = {
+					id = england.18 hours = 1
+				}
+		    }
+	    }
+}
+country_event = {
+	    id = england.18
+        title = england.18.t
+        desc = england.18.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		is_triggered_only = yes		
+        option = { 
+		    name = england.17.b
+	    }
+}
+country_event = {
+	id = england.19
+	title = england.19.t
+	desc = england.19.d 
+	picture = GFX_usa_event_annexation_pac
+
+	is_triggered_only = yes
+	option = { 
+		name = england.19.a
+		create_faction = NATO
+		USA = {
+			add_to_faction = ENG
+			add_to_faction = IRE			
+		}
+	}
+
+	option = { 
+		name = england.19.b
+	}
+}
+
+country_event = {
+	    id = england.20
+        title = england.20.t
+        desc = england.20.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		is_triggered_only = yes
+		mean_time_to_happen = {
+		    days = 1
+	    }		
+        option = { 
+		    name = england.20.a
+		    ai_chance = {
+    			factor = 100
+		    }
+		    diplomatic_relation = {
+    			country = ENG
+    			relation = military_access
+    			active = yes
+			}
+			add_political_power = 100
+			create_wargoal = {
+    				type = puppet_wargoal_focus
+    				target = PRC
+			}
+			ENG = {
+				create_wargoal = {
+    				type = puppet_wargoal_focus
+    				target = PRC
+				}
+			}
+	    }
+	    option = {
+		    name = england.20.b
+		    ENG = {
+		    	create_wargoal = {
+    				type = puppet_wargoal_focus
+    				target = PRC
+				}
+				create_wargoal = {
+    				type = puppet_wargoal_focus
+    				target = JAP
+				}
+				country_event = {
+					id = england.18 hours = 1
+				}
+		    }
+	    }
+}
+
+country_event = {
+	id = england.21
+	title = england.19.t
+	desc = england.19.d 
+	picture = GFX_usa_event_annexation_pac
+
+	is_triggered_only = yes
+	option = { 
+		name = england.19.a
+		PRC = {
+			add_to_faction = ENG
+			add_to_faction = IRE			
+		}
+	}
+
+	option = { 
+		name = england.19.b
+	}
+}
+country_event = {
+	id = england.22
+	title = england.22.t
+	desc = england.22.d 
+	picture = GFX_usa_event_annexation_pac
+
+	is_triggered_only = yes
+	option = { 
+		name = england.19.a
+		ENG = {
+			transfer_state = 1140	
+			transfer_state = 796		
+		}
+	}
+
+	option = { 
+		name = england.19.b
+	}
+}
+news_event = {
+	    id = england.23
+        title = england.23.t
+        desc = england.23.d 
+	    picture = GFX_news_eu_conference 
+		
+		is_triggered_only = yes
+		
+		immediate = {
+		hidden_effect = {
+				BAV = {
+					transfer_state = 53
+					transfer_state = 991
+					transfer_state = 52
+					load_oob = "BAV_riot"
+					add_state_core = 53
+					add_state_core = 991
+					add_state_core = 52
+				}
+				AUS = {
+					transfer_state = 153
+					transfer_state = 39
+					transfer_state = 1150
+					transfer_state = 4
+					transfer_state = 152
+					load_oob = "AUS_riot"
+					add_state_core = 153
+					add_state_core = 39
+					add_state_core = 1150
+					add_state_core = 4
+					add_state_core = 152
+				}
+			
+				BRI = {
+					transfer_state = 14
+					load_oob = "BRI_riot"
+					add_state_core = 14
+				}
+				NMY = {
+					transfer_state = 15
+					load_oob = "NMY_riot"
+					add_state_core = 15
+				}
+			}
+		}
+
+        option = { 
+		    name = england.1.a
+
+		    #news_event = { id = england.24 days = 2 }
+	    }
+}
+news_event = {
+	    id = england.24
+        title = england.23.t
+        desc = england.23.d 
+	    picture = GFX_news_eu_conference 
+		
+		is_triggered_only = yes
+		
+		immediate = {
+		hidden_effect = {
+				FRA = {
+					create_wargoal = {
+    				type = puppet_wargoal_focus
+    				target = NMY
+					}
+					create_wargoal = {
+    				type = puppet_wargoal_focus
+    				target = BRI
+					}
+				}
+				GER = {
+					create_wargoal = {
+    				type = puppet_wargoal_focus
+    				target = AUS
+					}
+					create_wargoal = {
+    				type = puppet_wargoal_focus
+    				target = BAV
+					}
+				}
+			}
+		}
+
+        option = { 
+		    name = england.1.a		    
+	    }
+}

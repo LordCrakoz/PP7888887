@@ -1,0 +1,64 @@
+﻿add_namespace = welcome
+
+country_event = {
+	    id = welcome.1
+        title = welcome.1.t
+        desc = welcome.1.d 
+	    picture = GFX_welcome_to_project_x
+		
+		is_triggered_only = yes
+				
+       option = { 
+			 name = welcome.1.a 
+			 ai_chance {
+				   factor = 200
+			 }
+	         set_country_flag = anarchy_movements 
+			          if = {
+				       limit = { nationalistic_government = yes }
+						   add_ideas = islamist_influence_2  
+						   add_ideas = fascist_influence_2	
+						   add_ideas = nationalist_influence_2		  
+						   add_ideas = brotherhood_influence_3   
+						   add_ideas = autocratic_influence_2
+						   add_ideas = conservative_influence_1
+						   add_ideas = social_democrat_influence_1
+						   add_ideas = confederatic_influence_1
+						   add_ideas = communist_influence_1
+					 } 
+					 if = {
+					   limit = { democratic_government = yes }
+						   add_ideas = islamist_influence_1  
+						   add_ideas = nationalist_influence_2		  
+						   add_ideas = brotherhood_influence_2   
+						   add_ideas = autocratic_influence_2
+						   add_ideas = liberal_influence_2
+						   add_ideas = conservative_influence_2
+						   add_ideas = social_democrat_influence_2
+						   add_ideas = confederatic_influence_2
+						   add_ideas = communist_influence_1  
+                     }	
+					 if = {
+					   limit = { neo_socialist_government = yes }
+						   add_ideas = communist_influence_4
+						   add_ideas = social_democrat_influence_2
+						   add_ideas = autocratic_influence_2
+						   add_ideas = nationalist_influence_2
+						   add_ideas = confederatic_influence_2
+                     }	
+					 if = {
+					   limit = { confederatic_government = yes }
+						   add_ideas = autocratic_influence_2
+						   add_ideas = confederatic_influence_6
+						   add_ideas = islamist_influence_2  
+						   add_ideas = fascist_influence_2	
+						   add_ideas = nationalist_influence_2		  
+						   add_ideas = brotherhood_influence_2   
+						   add_ideas = conservative_influence_2
+						   add_ideas = liberal_influence_2
+						   add_ideas = social_democrat_influence_2
+					       add_ideas = communist_influence_2
+                     }	   
+	  }  	
+
+}

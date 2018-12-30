@@ -1,0 +1,21 @@
+scripted_gui = {
+
+	 riots_map_window = {
+		context_type = player_context
+		
+		window_name = "riots_map_window_container"
+		
+		
+		
+		visible = {
+            has_country_flag = riots_map_opened
+		}
+		
+		effects = {
+			riots_map_close_click = {
+				clr_country_flag = riots_map_opened
+			}
+	    }
+    }	
+}
+

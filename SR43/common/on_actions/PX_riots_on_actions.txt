@@ -1,0 +1,106 @@
+on_actions = {
+	on_startup = {
+	   effect = {
+		  every_country = {
+			 limit = { 
+			    has_country_flag = anarchy_movements		
+		     }	 
+			 set_variable = { procent_movements_I = 0 }
+			 set_variable = { procent_movements_I_rate = 10 }
+			 set_variable = { procent_movements_I_max = 100 }
+					
+			 set_variable = { procent_movements_II = 0 }
+			 set_variable = { procent_movements_II_rate = 10 }
+			 set_variable = { procent_movements_II_max = 100 }
+			 
+			 set_variable = { procent_movements_III = 0 }
+			 set_variable = { procent_movements_III_rate = 10 }
+			 set_variable = { procent_movements_III_max = 100 }
+			 
+			 set_variable = { procent_movements_IV = 0 }
+			 set_variable = { procent_movements_IV_rate = 10 }
+			 set_variable = { procent_movements_IV_max = 100 }
+			 
+			 set_variable = { procent_movements_V = 0 }
+			 set_variable = { procent_movements_V_rate = 10 }
+			 set_variable = { procent_movements_V_max = 100 }
+			 
+			 set_variable = { procent_movements_VI = 0 }
+			 set_variable = { procent_movements_VI_rate = 10 }
+			 set_variable = { procent_movements_VI_max = 100 }
+			 
+			 set_variable = { procent_movements_VII = 0 }
+			 set_variable = { procent_movements_VII_rate = 10 }
+			 set_variable = { procent_movements_VII_max = 100 }
+			 
+			 set_variable = { procent_movements_VIII = 0 }
+			 set_variable = { procent_movements_VIII_rate = 10 }
+			 set_variable = { procent_movements_VIII_max = 100 }
+		  }
+	   }
+	}
+	on_daily = {
+	   effect = { 
+		   if = {
+				   limit = { 
+						tag = GER 
+						has_country_flag = anarchy_movements
+				   }	
+				   add_to_variable = { procent_movements_I = 0.07 }	
+				   add_to_variable = { procent_movements_II = 0.05 }	   
+				   add_to_variable = { procent_movements_III = 0.02 }
+				   add_to_variable = { procent_movements_IV = 0.03 }
+				   add_to_variable = { procent_movements_V = 0.02 }
+				   add_to_variable = { procent_movements_VI = 0.03 }
+				   add_to_variable = { procent_movements_VII = 0.03 }
+				   add_to_variable = { procent_movements_VIII = 0.03 }
+			  if = {	    
+				   limit = { 
+						tag = FRA 
+						has_country_flag = anarchy_movements
+				   }
+	
+				   add_to_variable = { procent_movements_I = 0.15 }	
+				   add_to_variable = { procent_movements_II = 0.10 }
+				   add_to_variable = { procent_movements_III = 0.05 }
+				   add_to_variable = { procent_movements_IV = 0.09 }
+				   add_to_variable = { procent_movements_V = 0.09 }
+				   add_to_variable = { procent_movements_VI = 0.09 }
+				   add_to_variable = { procent_movements_VII = 0.03 }
+				   add_to_variable = { procent_movements_VIII = 0.03 }
+			  }  
+			  if = {
+				   limit = { 
+						tag = SCA 
+						has_country_flag = anarchy_movements
+				   }
+		
+				   add_to_variable = { procent_movements_I = 0.09 }	
+				   add_to_variable = { procent_movements_II = 0.07 }	
+				   add_to_variable = { procent_movements_III = 0.05 }
+				   add_to_variable = { procent_movements_IV = 0.05 }
+				   add_to_variable = { procent_movements_V = 0.05 }
+				   add_to_variable = { procent_movements_VI = 0.05 }
+				   add_to_variable = { procent_movements_VII = 0.03 }
+				   add_to_variable = { procent_movements_VIII = 0.03 }
+			  }
+			  if = {
+				   limit = { 
+						tag = POL
+						has_country_flag = anarchy_movements
+				   }
+		
+				   add_to_variable = { procent_movements_I = 0.03 }	
+				   add_to_variable = { procent_movements_II = 0.01 }
+				   add_to_variable = { procent_movements_III = 0.05 }
+				   add_to_variable = { procent_movements_IV = 0.05 }
+				   add_to_variable = { procent_movements_V = 0.05 }
+				   add_to_variable = { procent_movements_VI = 0.05 }
+				   add_to_variable = { procent_movements_VII = 0.03 }
+				   add_to_variable = { procent_movements_VIII = 0.03 }
+			  }   
+
+	      }
+       }
+   }
+}

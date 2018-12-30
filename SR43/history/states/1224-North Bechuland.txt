@@ -1,0 +1,27 @@
+state={
+	id=1224
+	name="STATE_1224"
+	provinces={
+		1580 12963 
+	}
+	
+	resources={
+		chromium=50.000
+	}
+	
+	history={
+		owner = BOT
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = BOT
+
+	}
+	
+	manpower=250000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

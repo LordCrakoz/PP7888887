@@ -1,0 +1,19 @@
+state={
+	id=1111
+	name="STATE_1111"
+
+	history={
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+
+	provinces={
+		13521 13523 13528 13530 
+	}
+	manpower=650
+	buildings_max_level_factor=1.000
+	state_category=mars_region
+}

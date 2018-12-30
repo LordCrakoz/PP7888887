@@ -1,0 +1,26 @@
+state={
+	id=907
+	name="STATE_907"
+	provinces={
+		4848 
+	}
+	resources={
+		oil=50.000
+	}
+	
+	history={
+		owner = USA
+		victory_points = {
+			4848 4
+		}
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = USA
+
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category="rural"
+}

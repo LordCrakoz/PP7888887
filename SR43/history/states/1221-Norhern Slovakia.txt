@@ -1,0 +1,22 @@
+state={
+	id=1221
+	name="STATE_1221"
+
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+
+		}
+		add_core_of = POL
+
+	}
+
+	provinces={
+		581 3484 3550 3581 6604 9539 11539 11554 
+	}
+	manpower=1515226
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

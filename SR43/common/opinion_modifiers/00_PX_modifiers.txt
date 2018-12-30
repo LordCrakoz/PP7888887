@@ -1,0 +1,60 @@
+opinion_modifiers = {
+
+    PRC_japan_friend = { value = 50 }
+
+	PRC_russian_friend = { value = 60 }
+	
+	PRC_indian_friend = { value = 50 }
+	
+	PRC_japan_hater = { value = -65 }
+	
+	PRC_russian_hater = { value = -55 }
+	
+	SAH_atc_traitor = { value = -70 }
+	
+	SAH_chinese_traitor =  { value  = -70 }
+	
+	SAH_russia_traitor =  { value  = -70 }
+	
+	PRC_indian_hater = { value = -55 }
+
+	ENG_german_friend = { value = 50 }
+
+	ENG_usa_friend = { value = 50 }
+	
+	#Elections ideology
+	brotherhood_in_government = { value = 25 }
+	islamism_in_government = { value = 25 }
+	
+	#Countreies majors
+	
+	past_cold_war = { value = -40 }
+	
+	chinese_threat = { value = -65 }
+	
+	soviets_threat = { value = -65 }
+	
+	german_hegemony = { value = -30 }
+	
+	usa_hegemony = { value = -25 }
+	
+	chinese_hegemony = { value = -40 }
+	
+	brazilian_threat = { value = -50 }
+	
+	north_threat = { value = -40 }
+	
+	usa_threat = { value = -65 }
+	
+	indian_hater = { value = -70 }
+	
+	german_hater = { value = -45 }
+	
+	past_fight = { value = -30 }
+	
+	#Cooperation
+	soviets_cooperation = { value = 30 }
+	
+	chinese_cooperation = { value = 30 }
+	
+}

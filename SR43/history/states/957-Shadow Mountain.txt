@@ -1,0 +1,30 @@
+state={
+	id=957
+	name="STATE_957"
+	
+	resources={
+		oil=15 
+		aluminium=20
+		steel=15
+	}
+
+	history={
+		owner = SAH
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = SAH
+
+	}
+
+	provinces={
+		5004 10749 12022 13233 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

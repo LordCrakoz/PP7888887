@@ -1,0 +1,22 @@
+state={
+	id=1225
+	name="STATE_1225"
+	provinces={
+		8136 10978 12921 
+	}
+	
+	history={
+		owner = NAM
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = NAM
+
+	}
+	
+	manpower=452352
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

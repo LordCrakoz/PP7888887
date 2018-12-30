@@ -1,0 +1,7 @@
+form_united_kingdom_category = {
+    icon = generic_political_actions
+	priority = 500
+	allowed = {
+		original_tag = ENG
+	}
+}

@@ -1,0 +1,22 @@
+state={
+	id=1231
+	name="STATE_1231"
+	provinces={
+		516 
+	}
+	history={
+		owner = BEL
+		victory_points = {
+			516 30 
+		}
+		buildings = {
+			infrastructure = 10
+
+		}
+		add_core_of = BEL
+
+	}
+	manpower=512362
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,57 @@
+scripted_gui = {
+
+	 riots_main_window = {
+		context_type = player_context
+		
+		window_name = "riots_main_window_container"
+		
+		properties = {
+			anarchy_riots = {
+			   image = "[get_idea_anarchy_riots]"
+			}
+		}
+		
+		visible = {
+            has_country_flag = riots_opened
+		}
+		
+		effects = {
+			riots_main_close_click = {
+				clr_country_flag = riots_opened
+			}
+			riots_open_map_button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = riots_map_opened } }
+					set_country_flag = riots_map_opened
+				}
+			}
+	    }
+		
+		triggers = {
+			riots_open_button_visible = {
+				always = yes
+			}
+		}
+		
+		ai_test_interval = 300
+		ai_test_variance = 0.1
+		ai_max_weight_taken_per_test = 2
+		
+		ai_enabled = {
+            always = yes
+		}
+		ai_check = {
+			always = yes
+		}
+		
+		ai_weights = {
+			riots_open_map_button_click = {
+				weight = 1.0
+				ai_will_do = {
+					factor = 1
+				}
+			}
+		}
+    }
+}
+

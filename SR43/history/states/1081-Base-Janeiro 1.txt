@@ -1,0 +1,24 @@
+state={
+	id=1081
+	name="STATE_1081"
+
+	history={
+        victory_points = {
+			13321 30 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		13317 13321 
+	}
+	manpower=760
+	buildings_max_level_factor=1.000
+	state_category=mars_region
+}

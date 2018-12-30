@@ -1,0 +1,463 @@
+﻿division_template = {
+	name = "SASP Infantry"	
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "SASP Panzer"	# Armored Division
+	
+
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		modern_armor = { x = 2 y = 0 }
+	    modern_armor = { x = 2 y = 1 }
+	    modern_armor = { x = 2 y = 2 }
+	    motorized = { x = 3 y = 0 }
+		
+		
+	} 
+	
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "SASP Model 2235"	# Armored Division
+	
+	regiments = {
+		super_heavy_armor = { x = 0 y = 0 }
+		super_heavy_armor = { x = 0 y = 1 }
+		super_heavy_armor = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		modern_armor = { x = 2 y = 0 }
+	    modern_armor = { x = 2 y = 1 }
+	    teleguider_tank = { x = 2 y = 2 }
+		
+	} 
+	
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+		maintenance_company { x = 0 y = 3 }
+    }
+}
+
+division_template = {
+	name = "SASP Mountain Guard"	
+
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 0 y = 3 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "SASP Paratrooper Division SRC-2"	
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+		paratrooper = { x = 1 y = 2 }
+		paratrooper = { x = 2 y = 0 }
+		paratrooper = { x = 2 y = 1 }
+		paratrooper = { x = 2 y = 2 }
+	}
+	support = { 
+		engineer = { x = 0 y = 0 }
+	    recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "SASP Model H367-C1"	
+
+
+	regiments = {
+		teleguider_tank = { x = 0 y = 0 }
+		teleguider_tank = { x = 0 y = 1 }
+		teleguider_tank = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		teleguider_tank = { x = 1 y = 0 }
+		teleguider_tank = { x = 1 y = 1 }
+		teleguider_tank = { x = 1 y = 2 }
+		teleguider_tank = { x = 2 y = 0 }
+		teleguider_tank = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+		maintenance_company { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "SASP S.H Model"	
+
+
+	regiments = {
+		super_heavy_armor = { x = 0 y = 0 }
+		super_heavy_armor = { x = 0 y = 1 }
+		super_heavy_armor = { x = 0 y = 2 }
+		super_heavy_armor = { x = 1 y = 0 }
+		super_heavy_armor = { x = 1 y = 1 }
+		super_heavy_armor = { x = 1 y = 2 }
+		super_heavy_armor = { x = 2 y = 0 }
+		super_heavy_armor = { x = 2 y = 1 }
+		super_heavy_armor = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+		maintenance_company { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "SASP Rocket Model - SORV"	
+
+
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }
+		artillery_brigade = { x = 0 y = 1 }
+		motorized_rocket_brigade = { x = 1 y = 0 }
+		motorized_rocket_brigade = { x = 1 y = 1 }
+		motorized_rocket_brigade = { x = 2 y = 0 }
+		motorized_rocket_brigade = { x = 2 y = 1 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+		maintenance_company { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "SASP Motorized Division" # Motorized Division
+	
+
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		
+		
+		
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+# Units Pact
+units = {
+	division= {	# "SASP Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13212
+		division_template = "SASP Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "SASP Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13212
+		division_template = "SASP Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	# "Saharian Paratrooper Division SRC-2"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13212
+		division_template = "SASP Paratrooper Division SRC-2" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "SASP Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13212
+		division_template = "SASP Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "SASP Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13284
+		division_template = "SASP Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "SASP Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13284
+		division_template = "SASP Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "SASP Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13284
+		division_template = "SASP Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "1. SASP Rocket Model - SORV"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13284
+		division_template = "SASP Rocket Model - SORV" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "2. SASP Rocket Model - SORV"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4902
+		division_template = "SASP Rocket Model - SORV" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "SASP Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4902
+		division_template = "SASP Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "SASP Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4902
+		division_template = "SASP Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "SASP Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4902
+		division_template = "SASP Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "SASP Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10739
+		division_template = "SASP Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "SASP Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10739
+		division_template = "SASP Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "SASP Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10739
+		division_template = "SASP Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "SASP Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13225
+		division_template = "SASP Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "SASP Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13225
+		division_template = "SASP Infantry" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "SASP Motorized Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13225
+		division_template = "SASP Motorized Division" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "SASP Motorized Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1994
+		division_template = "SASP Motorized Division" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "SASP Motorized Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1994
+		division_template = "SASP Motorized Division" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "SASP Motorized Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1994
+		division_template = "SASP Motorized Division" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "SASP Motorized Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 7987
+		division_template = "SASP Motorized Division" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division= {	# "SASP Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 7987
+		division_template = "SASP Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	# "SASP Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5136
+		division_template = "SASP Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division= {	# "SASP Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5136
+		division_template = "SASP Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+}

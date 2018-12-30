@@ -1,0 +1,19 @@
+state={
+	id=942
+	name="STATE_942"
+	provinces={
+		13266 13267 
+	}
+	
+	history={
+		owner = SRD
+		 buildings = {
+			infrastructure = 10
+		}
+		add_core_of = SRD
+
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+}

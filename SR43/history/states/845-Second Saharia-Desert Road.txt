@@ -1,0 +1,19 @@
+state={
+	id=845
+	name="STATE_845"
+	provinces={
+		13217 13262 13265
+	}
+	
+	history={
+		owner = SWS
+		 buildings = {
+			infrastructure = 10
+		}
+		add_core_of = SWS
+
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+}

@@ -1,0 +1,40 @@
+state={
+	id=1188
+	name="STATE_1188"
+	provinces={
+		438 3483 3562 9454 9558 13607
+	}
+	
+	history={
+		owner = RIG
+		buildings = {
+			infrastructure = 5
+			438 = {
+			   bunker = 7
+		    }
+			3483 = {
+			   bunker = 7
+		    }
+			3562 = {
+			   bunker = 7
+		    }
+			9454 = {
+			   bunker = 7
+		    }
+			9558 = {
+			   bunker = 7
+		    }
+			13607 = {
+			   bunker = 7
+		    }
+
+		}
+		add_core_of = RIG
+		add_claim_by = UKR
+		set_demilitarized_zone = yes
+	}
+	
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

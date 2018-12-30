@@ -1,0 +1,26 @@
+
+state={
+	id=514
+	name="STATE_514"
+	resources={
+		steel=4
+	}
+	
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 5
+			air_base = 1
+
+		}
+		add_core_of = ALG
+
+	}
+
+	provinces={
+		1043 1901
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

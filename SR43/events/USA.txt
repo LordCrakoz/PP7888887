@@ -1,0 +1,15 @@
+﻿add_namespace = usa
+
+news_event = {
+		id = usa.16
+		title = usa.16.t
+		desc = usa.16.d
+		picture = GFX_news_eu_conference 
+		
+		is_triggered_only = yes
+		
+        option = { 
+		    name = usa.16.a
+
+	    }
+}

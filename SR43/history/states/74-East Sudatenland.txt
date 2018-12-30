@@ -1,0 +1,22 @@
+
+state={
+	id=74
+	name="STATE_74"
+
+	history={
+		owner = POL
+		buildings = {
+			infrastructure = 7
+
+		}
+		add_core_of = POL
+
+	}
+
+	provinces={
+		421 6485 
+	}
+	manpower=620000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,196 @@
+focus_tree = {
+	id = european_conference
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			OR = {
+				tag = MOL
+				tag = TRA
+				tag = ROM
+				tag = SCA
+				tag = POL
+				tag = BEL
+				tag = HOL
+				tag = POR
+				tag = SPR
+				tag = YUG
+				tag = CST
+				tag = CAT
+				tag = BOS
+				tag = GRE
+				tag = AUS
+			}
+		}
+	}
+	default = no
+	
+	focus = {
+		id = conference_process
+		icon = GFX_goal_tripartite_pact
+		cost = 0
+		x = 7
+		y = 1
+		available = {
+            always = no
+        }
+
+	}
+	focus = {
+		id = conference_ended
+		icon = GFX_focus_rom_parties_end
+		cost = 0
+		x = 7
+		y = 2
+		available = {
+            always = no
+        }
+
+	}
+	focus = {
+		id = support_brotherhood
+		icon = GFX_ground_war
+		cost = 1.00
+		x = 4
+		y = 4
+		available = {
+            always = no
+        }
+
+	}
+	focus = {
+		id = move_to_socialism
+		icon = GFX_focus_prc_agrarian_socialism
+		cost = 1.00
+		x = 10
+		y = 4
+		available = {
+            always = no
+        }
+
+	}
+	focus = {
+		id = confederatic_support
+		icon = GFX_goal_generic_position_armies
+		cost = 1.00
+		x = 6
+		y = 5
+		available = {
+            always = no
+        }
+
+	}
+	focus = {
+		id = democratic_remain
+		icon = GFX_goal_support_democracy
+		cost = 1.00
+		x = 8
+		y = 5
+		available = {
+            always = no
+        }
+
+	}
+	focus = {
+		id = neo_fascism_support
+		icon = GFX_goal_support_fascism
+		cost = 1.00
+		x = 4
+		y = 6
+		available = {
+            always = no
+        }
+
+	}
+	focus = {
+		id = islamic_uprising
+		icon = GFX_goal_flag_SAH_chaliphate
+		cost = 1.00
+		x = 10
+		y = 6
+		available = {
+            always = no
+        }
+
+	}
+	focus = {
+		id = little_industrialization
+		icon = GFX_focus_generic_tank_production
+		cost = 9.00
+		x = 2
+		y = 0
+		available = {
+            always = no
+        }
+
+	}
+	focus = {
+		id = little_army_upgrade
+		icon = GFX_focus_generic_combined_arms
+		cost = 9.00
+		x = 5
+		y = 0
+		available = {
+            always = no
+        }
+
+	}
+	focus = {
+		id = civil_factories_eu
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 8.00
+		prerequisite = {
+			focus = little_industrialization
+		}
+		x = 1
+		y = 1
+		available = {
+            always = no
+        }
+
+	}
+	focus = {
+		id = little_upgrade_roads
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 8.00
+		prerequisite = {
+			focus = little_industrialization
+		}
+		x = 2
+		y = 2
+		available = {
+            always = no
+        }
+
+	}
+	focus = {
+		id = military_factories_eu
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 8.00
+		prerequisite = {
+			focus = little_industrialization
+		}
+		x = 3
+		y = 1
+		available = {
+            always = no
+        }
+
+	}
+	focus = {
+		id = decision_of_future_eu
+		icon = GFX_focus_yug_ikarus
+		cost = 2.00
+		prerequisite = {
+			focus = conference_ended
+		}
+		x = 7
+		y = 3
+		available = {
+            always = no
+        }
+
+	}
+}

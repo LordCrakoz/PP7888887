@@ -1,0 +1,24 @@
+state={
+	id=851
+	name="STATE_851"
+	resources={
+		oil=5.000
+	}
+
+	history={
+		owner = SWS
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = SWS
+
+	}
+
+	provinces={
+		12849 
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}
