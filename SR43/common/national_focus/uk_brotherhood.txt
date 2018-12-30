@@ -4,24 +4,16 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag =  IRE
+			tag = NONE
 		}
 	}
 	default = no
 	focus = {
 		id = ukb_coup
-		icon = GFX_nationalism_focus
+		icon = GFX_ground_war
 		cost = 10.00
 		x = 8
 		y = 0
-
-	}
-	focus = {
-		id = ukb_launchbase
-		icon = GFX_finish_society
-		cost = 10.00
-		x = 15
-		y = 1
 
 	}
 	focus = {
@@ -32,7 +24,6 @@ focus_tree = {
 			focus = ukb_coup
 		}
 		mutually_exclusive = {
-			focus = ukb_blackterror
 			focus = ukb_blackterror
 		}
 		x = 5
@@ -117,7 +108,6 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = ukb_sciwor
-			focus = ukb_sciwor
 		}
 		x = 11
 		y = 1
@@ -132,17 +122,6 @@ focus_tree = {
 		}
 		x = 10
 		y = 2
-
-	}
-	focus = {
-		id = ukb_armsf
-		icon = GFX_focus_generic_tank_production
-		cost = 10.00
-		prerequisite = {
-			focus = ukb_devofeng
-		}
-		x = 2
-		y = 6
 
 	}
 	focus = {
@@ -177,6 +156,10 @@ focus_tree = {
 		prerequisite = {
 			focus = ukb_totalwar
 		}
+		mutually_exclusive = {
+			focus = ukb_unionfra
+			focus = ukb_unionfra
+		}
 		x = 13
 		y = 4
 
@@ -193,6 +176,17 @@ focus_tree = {
 
 	}
 	focus = {
+		id = ukb_asknmy
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_britanny
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
 		id = ukb_pactgerlmany
 		icon = GFX_focus_chi_mission_to_germany
 		cost = 10.00
@@ -204,12 +198,134 @@ focus_tree = {
 
 	}
 	focus = {
+		id = ukb_unionfra
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_totalwar
+		}
+		mutually_exclusive = {
+			focus = ukb_warfrance
+			focus = ukb_warfrance
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = ukb_middleeast
+		icon = GFX_focus_generic_strike_at_democracy3
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_warfrance
+			focus = ukb_unionfra
+		}
+		mutually_exclusive = {
+			focus = ukb_safattack
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = ukb_connectedeur
+		icon = GFX_ground_war
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_unionfra
+		}
+		x = 15
+		y = 6
+
+	}
+	focus = {
+		id = ukb_destroy_northem
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_pactgerlmany
+			focus = ukb_connectedeur
+		}
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = uk_suez
+		icon = GFX_goal_generic_demand_territory
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_destroy_northem
+		}
+		x = 13
+		y = 8
+
+	}
+	focus = {
+		id = ukb_invcan
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_destroy_northem
+		}
+		x = 15
+		y = 8
+
+	}
+	focus = {
+		id = ukb_invegy
+		icon = GFX_focus_RAJ_lions_of_the_great_war
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_invcan
+		}
+		x = 15
+		y = 9
+
+	}
+	focus = {
+		id = ukb_attindia
+		icon = GFX_focus_RAJ_british_investors
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_invegy
+		}
+		x = 15
+		y = 10
+
+	}
+	focus = {
+		id = ukb_launchbase
+		icon = GFX_finish_society
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_technoempire
+		}
+		x = 8
+		y = 15
+
+	}
+	focus = {
+		id = ukb_armsf
+		icon = GFX_focus_generic_tank_production
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_devofeng
+		}
+		x = 2
+		y = 6
+
+	}
+	focus = {
 		id = ukb_rindustry
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10.00
 		prerequisite = {
-			focus = ukb_armsf
 			focus = ukb_pactgerlmany
+			focus = ukb_connectedeur
+		}
+		prerequisite = {
+			focus = ukb_unification
 		}
 		x = 10
 		y = 7
@@ -222,23 +338,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ukb_launchbase
 		}
-		x = 14
-		y = 3
-
-	}
-	focus = {
-		id = ukb_middleeast
-		icon = GFX_focus_generic_strike_at_democracy3
-		cost = 10.00
-		prerequisite = {
-			focus = ukb_warfrance
-		}
-		mutually_exclusive = {
-			focus = ukb_safattack
-			focus = ukb_safattack
-		}
-		x = 14
-		y = 5
+		x = 7
+		y = 16
 
 	}
 	focus = {
@@ -255,7 +356,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ukb_scots
-		icon = GFX_goal_continuous_restrict_freedom
+		icon = GFX_goal_generic_amphibious_assault
 		cost = 10.00
 		prerequisite = {
 			focus = ukb_unification
@@ -292,9 +393,9 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = ukb_warfrance
+			focus = ukb_unionfra
 		}
 		mutually_exclusive = {
-			focus = ukb_middleeast
 			focus = ukb_middleeast
 		}
 		x = 16
@@ -308,8 +409,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ukb_launchbase
 		}
-		x = 16
-		y = 2
+		x = 9
+		y = 16
 
 	}
 	focus = {
@@ -318,7 +419,9 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = ukb_armsf
-			focus = ukb_pactgerlmany
+		}
+		prerequisite = {
+			focus = ukb_unification
 		}
 		x = 6
 		y = 7
@@ -326,27 +429,27 @@ focus_tree = {
 	}
 	focus = {
 		id = ukb_m
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_commonwealth_build_infantry
 		cost = 10.00
 		prerequisite = {
-			focus = ukb_rarmy
+			focus = ukb_m3
 		}
-		prerequisite = {
-			focus = ukb_rindustry
-		}
-		x = 8
-		y = 8
+		x = 9
+		y = 9
 
 	}
 	focus = {
 		id = ukb_m2
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_air_doctrine
 		cost = 10.00
 		prerequisite = {
-			focus = ukb_m
+			focus = ukb_doctrine
 		}
-		x = 8
-		y = 9
+		prerequisite = {
+			focus = ukb_dock
+		}
+		x = 6
+		y = 10
 
 	}
 	focus = {
@@ -362,24 +465,27 @@ focus_tree = {
 	}
 	focus = {
 		id = ukb_c
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_build_airforce
 		cost = 10.00
 		prerequisite = {
-			focus = ukb_rindustry
+			focus = ukb_m3
 		}
-		x = 10
-		y = 8
+		x = 11
+		y = 9
 
 	}
 	focus = {
 		id = ukb_i
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_air_production
 		cost = 10.00
+		prerequisite = {
+			focus = ukb_m
+		}
 		prerequisite = {
 			focus = ukb_c
 		}
 		x = 10
-		y = 9
+		y = 10
 
 	}
 	focus = {
@@ -387,32 +493,32 @@ focus_tree = {
 		icon = GFX_goal_poland_goal
 		cost = 10.00
 		prerequisite = {
-			focus = ukb_rarmy
+			focus = ukb_m2
 		}
 		x = 6
-		y = 8
+		y = 11
 
 	}
 	focus = {
 		id = ukb_dock
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_build_navy
 		cost = 10.00
 		prerequisite = {
-			focus = ukb_air
+			focus = ukb_m3
 		}
-		x = 6
+		x = 7
 		y = 9
 
 	}
 	focus = {
 		id = ukb_c2
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_CAS
 		cost = 10.00
 		prerequisite = {
 			focus = ukb_i
 		}
 		x = 10
-		y = 10
+		y = 11
 
 	}
 	focus = {
@@ -420,38 +526,277 @@ focus_tree = {
 		icon = GFX_goal_continuous_naval_production
 		cost = 10.00
 		prerequisite = {
+			focus = ukb_air
+		}
+		prerequisite = {
 			focus = ukb_c2
 		}
 		prerequisite = {
-			focus = ukb_m2
+			focus = ukb_cyberstock
+		}
+		x = 8
+		y = 12
+
+	}
+	focus = {
+		id = ukb_m3
+		icon = GFX_focus_yug_ikarus
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_rarmy
 		}
 		prerequisite = {
-			focus = ukb_doctrine
+			focus = ukb_rindustry
+		}
+		x = 8
+		y = 8
+
+	}
+	focus = {
+		id = ukb_doctrine
+		icon = GFX_goal_generic_build_tank
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_m3
+		}
+		x = 5
+		y = 9
+
+	}
+	focus = {
+		id = ukb_northem
+		icon = GFX_goal_generic_major_alliance
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_armsf
+		}
+		x = 2
+		y = 7
+
+	}
+	focus = {
+		id = ukb_interneteco
+		icon = GFX_laboratory
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_m3
+		}
+		x = 8
+		y = 10
+
+	}
+	focus = {
+		id = ukb_cyberstock
+		icon = GFX_focus_chi_legislative_yuan
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_interneteco
 		}
 		x = 8
 		y = 11
 
 	}
 	focus = {
-		id = ukb_m3
-		icon = GFX_goal_unknown
+		id = ukb_scienceco
+		icon = GFX_goal_tripartite_pact
 		cost = 10.00
 		prerequisite = {
-			focus = ukb_m
+			focus = ukb_northem
+		}
+		x = 1
+		y = 8
+
+	}
+	focus = {
+		id = ukb_swissalliance
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_northem
+		}
+		x = 3
+		y = 8
+
+	}
+	focus = {
+		id = ukb_english_storm
+		icon = GFX_goal_generic_cavalry
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_industrial
+		}
+		prerequisite = {
+			focus = ukb_india
+			focus = ukb_china
 		}
 		x = 8
+		y = 13
+
+	}
+	focus = {
+		id = ukb_canada
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_scienceco
+		}
+		prerequisite = {
+			focus = ukb_swissalliance
+		}
+		x = 2
+		y = 9
+
+	}
+	focus = {
+		id = ukb_newcommonwealth
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_canada
+		}
+		x = 2
 		y = 10
 
 	}
 	focus = {
-		id = ukb_doctrine
-		icon = GFX_goal_unknown
+		id = ukb_anglicanchurch
+		icon = GFX_goal_tactical_brotherhood
 		cost = 10.00
 		prerequisite = {
-			focus = ukb_dock
+			focus = uk_suez
 		}
-		x = 6
+		x = 13
+		y = 9
+
+	}
+	focus = {
+		id = ukb_purgeopposition
+		icon = GFX_goal_generic_secret_weapon
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_anglicanchurch
+		}
+		x = 13
 		y = 10
+
+	}
+	focus = {
+		id = ukb_nzandaus
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_newcommonwealth
+		}
+		x = 1
+		y = 11
+
+	}
+	focus = {
+		id = ukb_saf
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_newcommonwealth
+		}
+		x = 3
+		y = 11
+
+	}
+	focus = {
+		id = ukb_india
+		icon = GFX_focus_RAJ_indianisation_of_army
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_nzandaus
+		}
+		prerequisite = {
+			focus = ukb_saf
+		}
+		x = 2
+		y = 12
+
+	}
+	focus = {
+		id = ukb_hongkong
+		icon = GFX_focus_generic_japanese_imperial_glory
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_purgeopposition
+		}
+		prerequisite = {
+			focus = ukb_attindia
+		}
+		x = 14
+		y = 11
+
+	}
+	focus = {
+		id = ukb_china
+		icon = GFX_focus_chi_one_china_policy
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_hongkong
+		}
+		x = 14
+		y = 12
+
+	}
+	focus = {
+		id = ukb_technoempire
+		icon = GFX_focus_rom_royal_dictatorship
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_english_storm
+		}
+		x = 8
+		y = 14
+
+	}
+	focus = {
+		id = ukb_thequest
+		icon = GFX_focus_RAJ_indian_gurkhas
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_newscientist
+		}
+		prerequisite = {
+			focus = ukb_spacecolony
+		}
+		x = 8
+		y = 17
+
+	}
+	focus = {
+		id = ukb_indianatakeover
+		icon = GFX_focus_jap_spiritual_mobilization
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_thequest
+		}
+		x = 8
+		y = 18
+
+	}
+	focus = {
+		id = ukb_buildsphere
+		icon = GFX_goal_generic_radar
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_indianatakeover
+		}
+		x = 8
+		y = 19
+
+	}
+	focus = {
+		id = ukb_imperatorbritanicus
+		icon = GFX_focus_AST_never_gallipoli
+		cost = 10.00
+		prerequisite = {
+			focus = ukb_buildsphere
+		}
+		x = 8
+		y = 20
 
 	}
 }
