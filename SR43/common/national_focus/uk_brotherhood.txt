@@ -1,10 +1,10 @@
 focus_tree = {
 	id = uk_brotherhood
 	country = {
-		factor = 0
+		factor = 1
 		modifier = {
 			add = 10
-			tag = NONE
+			tag = ENG
 		}
 	}
 	default = no
@@ -338,7 +338,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ukb_launchbase
 		}
-		x = 7
+		x = 11
 		y = 16
 
 	}
