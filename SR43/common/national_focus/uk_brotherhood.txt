@@ -1,10 +1,10 @@
 focus_tree = {
 	id = uk_brotherhood
 	country = {
-		factor = 1
+		factor = 0
 		modifier = {
 			add = 10
-			tag = ENG
+			tag = N
 		}
 	}
 	default = no
@@ -14,7 +14,9 @@ focus_tree = {
 		cost = 10.00
 		x = 8
 		y = 0
-
+		available = {
+			has_political_power > 10
+		}
 	}
 	focus = {
 		id = ukb_sciwor
@@ -199,7 +201,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ukb_unionfra
-		icon = GFX_goal_unknown
+		icon = GFX_focus_chi_reach_out_to_france
 		cost = 10.00
 		prerequisite = {
 			focus = ukb_totalwar
@@ -251,7 +253,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = uk_suez
+		id = ukb_suez
 		icon = GFX_goal_generic_demand_territory
 		cost = 10.00
 		prerequisite = {
@@ -338,7 +340,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ukb_launchbase
 		}
-		x = 11
+		x = 10
 		y = 16
 
 	}
@@ -409,7 +411,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ukb_launchbase
 		}
-		x = 9
+		x = 8
 		y = 16
 
 	}
@@ -663,7 +665,7 @@ focus_tree = {
 		icon = GFX_goal_tactical_brotherhood
 		cost = 10.00
 		prerequisite = {
-			focus = uk_suez
+			focus = ukb_suez
 		}
 		x = 13
 		y = 9

@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  uk_research_club_name:0 "English Military Commonwealth"
  uk_research_club_desc:0 "English Military Commonwealth"
  NATO:0 "NATO"
@@ -164,17 +164,17 @@
  uk_dockyard:0 "Red Navy"
  uk_airforce:0 "Royal Air Drones"
  uk_fightislam:0 "Fight Islamic Rise"
-
- #BROTHERHOOD
+#BROTHERHOOD
  ukb_coup:0 "English Syndicate"
  ukb_coup_desc:0 "The new Government needs to install his institutions."
  ukb_sciwor:0 "The Technocracy"
  ukb_sciwor_desc:0 "Science is the true path that can lead to world peace !"
  ukb_sciplot:0 "Science is God"
+ ukb_sciplot_desc:0 "There's no other religions than science"
  ukb_earlyspace:0 "The Space Project"
  ukb_earlyspace_desc:0 "We finally have enough funds to launch our rocket !"
  ukb_robots:0 "CyberArmy"
- ukb_robots_desc:0 "why should we employ humans !?"
+ ukb_robots_desc:0 "Why should we employ humans !?"
  ukb_devofeng:0 "Science devotion"
  ukb_roads:0 "No more Cars"
  ukb_roads_desc:0 "Why use car when you have hypertransportation ?"
@@ -184,3 +184,22 @@
  ukb_blackterror_desc:0 "People are just sheep..."
  ukb_army:0 "Brainless Army"
  ukb_army_desc:0 "They don't need to think..."
+ ukb_arms:0 "Modern Warfare"
+ ukb_arms_desc:0 "We need to build a strong army !"
+ ukb_totalwar:0 "Mobilize the country"
+ ukb_armsf:0 "Big Cities and Big Tankies"
+ ukb_scots:0 "Burning Highlands"
+ ukb_unification:0 "Britannia rules the waves"
+ ukb_ire:0 "Behead the Leprechaun"
+ ukb_wales:0 "Burn the Dragon"
+ ukb_warfrance:0 "Dead Frogs"
+ ukb_britanny:0 "Breton Alliance"
+ ukb_asknmy:0 "Claim Normandy"
+ ukb_pactgerlmany:0 "The Tea-Falcon Pact"
+ ukb_unionfra:0 "The Anglo-French Union"
+ ukb_middleeast:0 "Claim the Oil"
+ ukb_connectedeur:0 "Rampage on Europe"
+ ukb_destroy_northem:0 "Destroy the Vikings"
+ ukb_suez:0 "Claim Suez"
+
+ 
